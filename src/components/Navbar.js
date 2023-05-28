@@ -18,8 +18,8 @@ const Navbar = () => {
         }
     }
     return (
-        <div>
-            <navbar className="flex flex-col sticky items-center md:flex-row md:justify-start shadow-md">
+        <div className='relative'>
+            <navbar className="flex flex-col items-center md:flex-row md:justify-start shadow-md">
                 <div className='logo m-4 z-20'>
                     <Link to="/"><img src={ logo } width={ 80 } height={ 30 } alt="logo" /></Link>
                 </div>
