@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/portfolio.css"
+
 import girlrigg from "../img/2d models/girlrigg.png"
 import ko from "../img/2d models/ko.png"
 import psd from "../img/2d models/psd.png"

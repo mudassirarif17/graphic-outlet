@@ -1,0 +1,14 @@
+.cards{
+    display: flex;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
