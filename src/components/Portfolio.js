@@ -27,13 +27,24 @@ import tw4 from "../img/Twitch Overlays/4.png"
 import tw5 from "../img/Twitch Overlays/5.png"
 import tw6 from "../img/Twitch Overlays/6.png"
 
+import pfp1 from "../img/pfp/1.png"
+import pfp2 from "../img/pfp/2.png"
+import pfp3 from "../img/pfp/3.png"
+import pfp4 from "../img/pfp/4.png"
+import pfp5 from "../img/pfp/5.png"
+
+import em1 from "../img/Emotes/1.png"
+import em2 from "../img/Emotes/2.png"
+import em3 from "../img/Emotes/3.png"
+import em4 from "../img/Emotes/4.png"
+
 
 
 const Portfolio = () => {
   return (
     <>
       <section className="text-gray-600 w-[90vw] mx-auto body-font">
-        <div className="container px-5 py-10 mx-auto">
+        <div className="container px-5 pt-14 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">WELCOME TO MY PORTFOLIO!
             </h1>
@@ -41,90 +52,120 @@ const Portfolio = () => {
             </p>
           </div>
         </div>
-      {/* 2d models */ }
-      <div>
-        <h3 className='mb-4'>2D Models</h3>
-        <div className='card-wrapper'>
-        <div className='cards'>
-          <img src={girlrigg} alt="girl" width={250} height={250} />
-          <img src={ko} alt="girl" width={280} height={250}  />
-          <img src={psd} alt="girl" width={250}  height={250} />
-        </div>
-        </div>
-        <div className='card-wrapper'>
-        <div className='cards'>
-          <img src={police} alt="girl" width={250} height={250} />
-          <img src={pinky} alt="girl" width={280} height={250}  />
-        </div>
-        </div>
+        {/* 2d models */ }
+        <div>
+          <h3 className='mb-4 text-center text-2xl'>2D MODELS</h3>
+          <div className='card-wrapper'>
+            <div className='cards'>
+              <img src={ girlrigg } alt="girl" width={ 250 } height={ 250 } />
+              <img src={ ko } alt="girl" width={ 280 } height={ 250 } />
+              <img src={ psd } alt="girl" width={ 250 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards'>
+              <img src={ police } alt="girl" width={ 250 } height={ 250 } />
+              <img src={ pinky } alt="girl" width={ 280 } height={ 250 } />
+            </div>
+          </div>
 
-        {/* 3d models */ }
-        <h3 className='mb-4'>3D Models</h3>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={sx5} alt="girl" width={280} height={250} />
-          <img className="mx-3" src={gum} alt="girl" width={280} height={250}  />
-        </div>
-        </div>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={op} alt="girl" width={280} height={250} />
-          <img className="mx-3" src={uk} alt="girl" width={280} height={250}  />
-        </div>
-        </div>
+          {/* 3d models */ }
+          <h3 className='mt-14 text-center text-2xl'>3D MODELS</h3>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ sx5 } alt="girl" width={ 280 } height={ 250 } />
+              <img className="m-3" src={ gum } alt="girl" width={ 280 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ op } alt="girl" width={ 280 } height={ 250 } />
+              <img className="m-3" src={ uk } alt="girl" width={ 280 } height={ 250 } />
+            </div>
+          </div>
 
-        {/* Banners */ }
-        <h3 className='mb-4'>Banners</h3>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={bn1} alt="girl" width={680} height={250} />
-        </div>
-        </div>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={bn2} alt="girl" width={680} height={250} />
-        </div>
-        </div>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={bn3} alt="girl" width={680} height={250} />
-        </div>
-        </div>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={bn4} alt="girl" width={680} height={250} />
-        </div>
-        </div>
+          {/* Banners */ }
+          <h3 className='mt-14 text-center text-2xl'>BANNERS</h3>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="my-3" src={ bn1 } alt="girl" width={ 680 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="my-3" src={ bn2 } alt="girl" width={ 680 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="my-3" src={ bn3 } alt="girl" width={ 680 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="my-3" src={ bn4 } alt="girl" width={ 680 } height={ 250 } />
+            </div>
+          </div>
 
-      {/* Digiart */ }
-      <h3 className='mb-4'>DigiArt</h3>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={dg1} alt="girl" width={300} height={250} />
-          <img className="mx-3" src={dg2} alt="girl" width={300} height={250} />
-          <img className="mx-3" src={dg3} alt="girl" width={300} height={250} />
-        </div>
-        </div>
+          {/* Digiart */ }
+          <h3 className='mt-14 text-center text-2xl'>DIGIART</h3>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="mx-3" src={ dg1 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="mx-3" src={ dg2 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="mx-3" src={ dg3 } alt="girl" width={ 300 } height={ 250 } />
+            </div>
+          </div>
 
-        {/* Twitch */ }
-      <h3 className='mb-4'>Twitch Overlays</h3>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={tw1} alt="girl" width={300} height={250} />
-          <img className="mx-3" src={tw2} alt="girl" width={300} height={250} />
-          <img className="mx-3" src={tw3} alt="girl" width={300} height={250} />
-        </div>
-        </div>
-        <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="mx-3" src={tw4} alt="girl" width={300} height={250} />
-          <img className="mx-3" src={tw5} alt="girl" width={300} height={250} />
-          <img className="mx-3" src={tw6} alt="girl" width={300} height={250} />
-        </div>
-        </div>
+          {/* Twitch */ }
+          <h3 className='my-14 text-center text-2xl'>TWITCH OVERLAYS</h3>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ tw1 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ tw2 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ tw3 } alt="girl" width={ 300 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ tw4 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ tw5 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ tw6 } alt="girl" width={ 300 } height={ 250 } />
+            </div>
+          </div>
 
-{/* new work */}
-      </div>
+          {/* pfp */ }
+          <h3 className='mt-14 text-center text-2xl'>PFP</h3>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ pfp1 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ pfp2 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ pfp3 } alt="girl" width={ 300 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ pfp4 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ pfp5 } alt="girl" width={ 300 } height={ 250 } />
+            </div>
+          </div>
+
+        {/* Emotes */ }
+        <h3 className='mt-14 text-center text-2xl'>EMOTES</h3>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="my-3" src={ em1 } alt="girl" width={ 350 } height={ 300 } />
+              <img className="my-3" src={ em2 } alt="girl" width={ 350 } height={ 300 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="my-3" src={ em3 } alt="girl" width={ 350 } height={ 300 } />
+              <img className="my-3" src={ em4 } alt="girl" width={ 350 } height={ 300 } />
+            </div>
+          </div>
+
+        </div>
       </section>
     </>
   )
