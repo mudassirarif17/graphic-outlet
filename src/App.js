@@ -21,7 +21,6 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-      {/* <Route exact path="/"><Home1/></Route> */}
       <Route exact path="/"><Home/></Route>
       <Route exact path="/contact"><Contact/></Route>
       <Route exact path="/about"><About/></Route>

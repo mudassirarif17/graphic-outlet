@@ -19,7 +19,7 @@ const Navbar = () => {
     }
     return (
         <div className='relative'>
-            <navbar className="flex flex-col items-center md:flex-row md:justify-start shadow-md">
+            <navbar className="flex  flex-col items-center md:flex-row md:justify-start shadow-md">
                 <div className='logo m-4 z-20'>
                     <Link to="/"><img src={ logo } width={ 80 } height={ 30 } alt="logo" /></Link>
                 </div>
@@ -39,8 +39,8 @@ const Navbar = () => {
                 </div>
             </navbar>
 
-            {/* mobile nav */ }
-            <div ref={ ref } className="cartbar overflow-y-scroll absolute top-0 right-0 bg-white z-10 w-60 h-full transform transition-transform translate-x-full">
+            {/* mobile nav overflow-y-scroll*/ }
+            <div ref={ ref } className="cartbar overflow-y-scroll  absolute top-0 right-0 bg-white  w-60  transform transition-transform translate-x-full">
                 <div onClick={ cartToggle } className='absolute right-6 top-5 px-4 py-2 bg-white shadow-md text-sm font-semibold'>
                     <ul><GrClose /></ul>
                 </div>
