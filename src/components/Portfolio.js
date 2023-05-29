@@ -47,23 +47,21 @@ const Portfolio = () => {
       <section className="text-gray-600 w-[90vw] mx-auto body-font">
         <div className="container px-5 pt-14 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">WELCOME TO MY PORTFOLIO!
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">WELCOME TO OUR PORTFOLIO!
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Here are just a few pieces I’ve done over the years (not in chronological order) that I feel really show my talent and skill.
-            </p>
           </div>
         </div>
         {/* 2d models */ }
         <div>
           <h3 className='mb-4 text-center text-2xl'>2D MODELS</h3>
           <div className='card-wrapper'>
-            <div className='cards space-x-4'>
+            <div className='cards space-x-10'>
               <img src={ girlrigg } alt="girl" width={ 300 } height={ 250 } />
               <img src={ psd } alt="girl" width={ 300 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
-            <div className='cards space-x-4'>
+            <div className='cards space-x-10'>
               <img src={ police } alt="girl" width={ 300 } height={ 250 } />
               <img src={ pinky } alt="girl" width={ 300 } height={ 250 } />
             </div>
@@ -122,7 +120,7 @@ const Portfolio = () => {
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="" src={ dg3 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="" src={ dg3 } alt="girl" width={ 600 } height={ 250 } />
             </div>
           </div>
 
@@ -147,19 +145,19 @@ const Portfolio = () => {
           <h3 className='mt-14 text-center text-2xl'>PFP</h3>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="m-3" src={ pfp1 } alt="girl" width={ 450 } height={ 250 } />
-              <img className="m-3" src={ pfp2 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="my-3" src={ pfp1 } alt="girl" width={ 600 } height={ 250 } />
+              <img className="my-3" src={ pfp2 } alt="girl" width={ 600 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="m-3" src={ pfp3 } alt="girl" width={ 450 } height={ 250 } />
-              <img className="m-3" src={ pfp4 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="my-3" src={ pfp3 } alt="girl" width={ 600 } height={ 250 } />
+              <img className="my-3" src={ pfp4 } alt="girl" width={ 600 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="m-3" src={ pfp5 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="m-3" src={ pfp5 } alt="girl" width={ 800 } height={ 250 } />
             </div>
           </div>
 

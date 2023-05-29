@@ -19,7 +19,7 @@ const Navbar = () => {
     }
     return (
         <div className='relative'>
-            <navbar className="flex  flex-col items-center md:flex-row md:justify-start shadow-md">
+            <navbar className="sticky top-0 flex flex-col items-center md:flex-row md:justify-start shadow-md">
                 <div className='logo m-4 z-20'>
                     <Link to="/"><img src={ logo } width={ 80 } height={ 30 } alt="logo" /></Link>
                 </div>
@@ -27,8 +27,8 @@ const Navbar = () => {
                     <ul className='flex space-x-5 font-bold m-4'>
                         <li><Link to="/" className='hover:text-blue-500 cursor-pointer'>Home</Link></li>
                         <li><Link to="/portfolio" className='hover:text-blue-500 cursor-pointer'>Portfolio</Link></li>
-                        <li><Link to="/contact" className='hover:text-blue-500 cursor-pointer'>Contact</Link></li>
-                        <li><Link to="/about" className='hover:text-blue-500 cursor-pointer'>About</Link></li>
+                        <li><Link to="/contact" className='hover:text-blue-500 cursor-pointer'>ContactUs</Link></li>
+                        <li><Link to="/about" className='hover:text-blue-500 cursor-pointer'>AboutUs</Link></li>
                         <li><Link to="/comission" className='hover:text-blue-500 cursor-pointer'>Commission</Link></li>
                     </ul>
                 </nav>
