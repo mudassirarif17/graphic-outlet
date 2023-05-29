@@ -14,29 +14,30 @@ import tw1 from "../img/Twitch Overlays/1.png"
 import tw2 from "../img/Twitch Overlays/2.png"
 import tw3 from "../img/Twitch Overlays/3.png"
 
+import pfp1 from "../img/pfp/1.png"
+import pfp2 from "../img/pfp/2.png"
+
 const Home = () => {
   return (
     <>
       {/* Banners */ }
-      <h3 className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>NEWEST BANNER</h3>
-      <div className='card-wrapper'>
+      <h3 className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>NEWEST DESIGNS</h3>
+      <div className='card-wrapper mb-10'>
         <div className='cards mb-2'>
           <img className="my-3" src={ bn2 } alt="girl" width={ 1000 } height={ 300 } />
         </div>
       </div>
 
       {/*NEWEST EMOTES */ }
-      <h3 className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>NEWEST EMOTES</h3>
-      <div className='card-wrapper'>
-        <div className='cards mb-2'>
-          <img className="my-3" src={ em1 } alt="girl" width={ 350 } height={ 300 } />
-          <img className="my-3" src={ em2 } alt="girl" width={ 350 } height={ 300 } />
+      <div className='card-wrapper mb-10'>
+        <div className='cards mb-2 lg:space-x-16'>
+        <img className="my-3" src={ em1 } alt="girl" width={ 450 } height={ 300 } />
+        <img className="my-3" src={ em2 } alt="girl" width={ 450 } height={ 300 } />
         </div>
       </div>
 
       {/* 2D MODELS*/ }
-      <h3 className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>FAN FAVORITE 2D MODELS</h3>
-      <div className='card-wrapper'>
+      <div className='card-wrapper mb-10'>
         <div className='cards'>
           <img src={ girlrigg } alt="girl" width={ 250 } height={ 250 } />
           <img src={ pinky } alt="girl" width={ 280 } height={ 250 } />
@@ -45,7 +46,6 @@ const Home = () => {
       </div>
 
       {/* Twitch */ }
-      <h3 className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>FAN FAVORITE TWITCH OVERLAYS</h3>
       <div className='card-wrapper'>
         <div className='cards mb-2'>
           <img className="m-3" src={ tw1 } alt="girl" width={ 300 } height={ 250 } />
@@ -53,6 +53,14 @@ const Home = () => {
           <img className="m-3" src={ tw3 } alt="girl" width={ 300 } height={ 250 } />
         </div>
       </div>
+
+      {/* pfp */ }
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ pfp1 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="m-3" src={ pfp2 } alt="girl" width={ 450 } height={ 250 } />
+            </div>
+          </div>
 
       {/*Show more   */ }
       <div className="p-2 w-full">

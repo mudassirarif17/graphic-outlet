@@ -57,16 +57,20 @@ const Portfolio = () => {
         <div>
           <h3 className='mb-4 text-center text-2xl'>2D MODELS</h3>
           <div className='card-wrapper'>
-            <div className='cards'>
-              <img src={ girlrigg } alt="girl" width={ 250 } height={ 250 } />
-              <img src={ ko } alt="girl" width={ 280 } height={ 250 } />
-              <img src={ psd } alt="girl" width={ 250 } height={ 250 } />
+            <div className='cards space-x-4'>
+              <img src={ girlrigg } alt="girl" width={ 300 } height={ 250 } />
+              <img src={ psd } alt="girl" width={ 300 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards space-x-4'>
+              <img src={ police } alt="girl" width={ 300 } height={ 250 } />
+              <img src={ pinky } alt="girl" width={ 300 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards'>
-              <img src={ police } alt="girl" width={ 250 } height={ 250 } />
-              <img src={ pinky } alt="girl" width={ 280 } height={ 250 } />
+              <img src={ ko } alt="girl" width={ 500 } height={ 250 } />
             </div>
           </div>
 
@@ -74,14 +78,14 @@ const Portfolio = () => {
           <h3 className='mt-14 text-center text-2xl'>3D MODELS</h3>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="m-3" src={ sx5 } alt="girl" width={ 280 } height={ 250 } />
-              <img className="m-3" src={ gum } alt="girl" width={ 280 } height={ 250 } />
+              <img className="my-3 lg:mx-3" src={ sx5 } alt="girl" width={ 400 } height={ 250 } />
+              <img className="my-3 lg:mx-3" src={ gum } alt="girl" width={ 400 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="m-3" src={ op } alt="girl" width={ 280 } height={ 250 } />
-              <img className="m-3" src={ uk } alt="girl" width={ 280 } height={ 250 } />
+              <img className="my-3 lg:mx-3" src={ op } alt="girl" width={ 400 } height={ 250 } />
+              <img className="my-3 lg:mx-3" src={ uk } alt="girl" width={ 400 } height={ 250 } />
             </div>
           </div>
 
@@ -89,22 +93,22 @@ const Portfolio = () => {
           <h3 className='mt-14 text-center text-2xl'>BANNERS</h3>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="my-3" src={ bn1 } alt="girl" width={ 680 } height={ 250 } />
+              <img className="my-3" src={ bn1 } alt="girl" width={ 800 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="my-3" src={ bn2 } alt="girl" width={ 680 } height={ 250 } />
+              <img className="my-3" src={ bn2 } alt="girl" width={ 800 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="my-3" src={ bn3 } alt="girl" width={ 680 } height={ 250 } />
+              <img className="my-3" src={ bn3 } alt="girl" width={ 800 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="my-3" src={ bn4 } alt="girl" width={ 680 } height={ 250 } />
+              <img className="my-3" src={ bn4 } alt="girl" width={ 800 } height={ 250 } />
             </div>
           </div>
 
@@ -112,9 +116,13 @@ const Portfolio = () => {
           <h3 className='mt-14 text-center text-2xl'>DIGIART</h3>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="mx-3" src={ dg1 } alt="girl" width={ 300 } height={ 250 } />
-              <img className="mx-3" src={ dg2 } alt="girl" width={ 300 } height={ 250 } />
-              <img className="mx-3" src={ dg3 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="" src={ dg1 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="" src={ dg2 } alt="girl" width={ 450 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="" src={ dg3 } alt="girl" width={ 450 } height={ 250 } />
             </div>
           </div>
 
@@ -139,30 +147,34 @@ const Portfolio = () => {
           <h3 className='mt-14 text-center text-2xl'>PFP</h3>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="m-3" src={ pfp1 } alt="girl" width={ 300 } height={ 250 } />
-              <img className="m-3" src={ pfp2 } alt="girl" width={ 300 } height={ 250 } />
-              <img className="m-3" src={ pfp3 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ pfp1 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="m-3" src={ pfp2 } alt="girl" width={ 450 } height={ 250 } />
             </div>
           </div>
           <div className='card-wrapper'>
             <div className='cards mb-2'>
-              <img className="m-3" src={ pfp4 } alt="girl" width={ 300 } height={ 250 } />
-              <img className="m-3" src={ pfp5 } alt="girl" width={ 300 } height={ 250 } />
+              <img className="m-3" src={ pfp3 } alt="girl" width={ 450 } height={ 250 } />
+              <img className="m-3" src={ pfp4 } alt="girl" width={ 450 } height={ 250 } />
+            </div>
+          </div>
+          <div className='card-wrapper'>
+            <div className='cards mb-2'>
+              <img className="m-3" src={ pfp5 } alt="girl" width={ 450 } height={ 250 } />
             </div>
           </div>
 
         {/* Emotes */ }
         <h3 className='mt-14 text-center text-2xl'>EMOTES</h3>
-          <div className='card-wrapper'>
-            <div className='cards mb-2'>
-              <img className="my-3" src={ em1 } alt="girl" width={ 350 } height={ 300 } />
-              <img className="my-3" src={ em2 } alt="girl" width={ 350 } height={ 300 } />
+          <div className='card-wrapper mb-8'>
+            <div className='cards mb-2 lg:space-x-16'>
+              <img className="my-3" src={ em1 } alt="girl" width={ 450 } height={ 300 } />
+              <img className="my-3" src={ em2 } alt="girl" width={ 450 } height={ 300 } />
             </div>
           </div>
           <div className='card-wrapper'>
-            <div className='cards mb-2'>
-              <img className="my-3" src={ em3 } alt="girl" width={ 350 } height={ 300 } />
-              <img className="my-3" src={ em4 } alt="girl" width={ 350 } height={ 300 } />
+            <div className='cards mb-2 lg:space-x-16'>
+              <img className="my-3" src={ em3 } alt="girl" width={ 450 } height={ 300 } />
+              <img className="my-3" src={ em4 } alt="girl" width={ 450 } height={ 300 } />
             </div>
           </div>
 
