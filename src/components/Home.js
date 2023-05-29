@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react' 
+import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 import bn2 from "../img/Banner/4.png"
@@ -18,8 +19,12 @@ import pfp1 from "../img/pfp/1.png"
 import pfp2 from "../img/pfp/2.png"
 
 const Home = () => {
+  const history = useHistory();
+  const navigateHandler = () =>{
+    history.push("/portfolio");
+  }
   return (
-    <>
+    <div className=''>
       {/* Banners */ }
       <h3 className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>NEWEST DESIGNS</h3>
       <div className='card-wrapper mb-10'>
@@ -64,9 +69,12 @@ const Home = () => {
 
       {/*Show more   */ }
       <div className="p-2 w-full">
-        <Link to="/portfolio"><button className="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Show More</button></Link>
+        {/* <Link to="/portfolio"><a href='2dmodels' className="flex w-fit  mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Show More</a></Link> */}
+
+        <button onClick={navigateHandler} href='2dmodels' className="flex w-fit  mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Show More</button>
+        
       </div>
-    </>
+    </div>
   )
 }
 

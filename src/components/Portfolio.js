@@ -53,7 +53,7 @@ const Portfolio = () => {
         </div>
         {/* 2d models */ }
         <div>
-          <h3 className='mb-4 text-center text-2xl'>2D MODELS</h3>
+          <h3 id='2dmodels' className='mb-4 text-center text-2xl'>2D MODELS</h3>
           <div className='card-wrapper'>
             <div className='cards space-x-10'>
               <img src={ girlrigg } alt="girl" width={ 300 } height={ 250 } />
