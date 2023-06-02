@@ -21,12 +21,14 @@ import pfp2 from "../img/pfp/2.png"
 const Home = () => {
   const history = useHistory();
   const navigateHandler = () =>{
-    history.push("/portfolio");
+    setTimeout(() => {
+      history.push("/portfolio");
+    }, 300);
   }
   return (
     <div className=''>
       {/* Banners */ }
-      <h3 className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>NEWEST DESIGNS</h3>
+      <h3 id="design" className='mt-10 text-center title-font sm:text-4xl lg:text-4xl mb-4 font-medium text-gray-900'>NEWEST DESIGNS</h3>
       <div className='card-wrapper mb-10'>
         <div className='cards mb-2'>
           <img className="my-3" src={ bn2 } alt="girl" width={ 1000 } height={ 300 } />
@@ -71,7 +73,7 @@ const Home = () => {
       <div className="p-2 w-full">
         {/* <Link to="/portfolio"><a href='2dmodels' className="flex w-fit  mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Show More</a></Link> */}
 
-        <button onClick={navigateHandler} href='2dmodels' className="flex w-fit  mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Show More</button>
+        <a onClick={navigateHandler} href='#design' className="flex w-fit  mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Show More</a>
         
       </div>
     </div>

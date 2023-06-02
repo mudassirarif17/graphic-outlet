@@ -40,13 +40,13 @@ const Navbar = () => {
             </navbar>
 
             {/* mobile nav overflow-y-scroll*/ }
-            <div ref={ ref } className="cartbar overflow-y-scroll  absolute top-0 right-0 bg-white  w-60  transform transition-transform translate-x-full">
+            <div ref={ ref } className="cartbar overflow-y-scroll  absolute top-0 right-0 bg-white  w-full  transform transition-transform translate-x-full">
                 <div onClick={ cartToggle } className='absolute right-6 top-5 px-4 py-2 bg-white shadow-md text-sm font-semibold'>
                     <ul><GrClose /></ul>
                 </div>
                 <div>
                     <nav className='flex flex-col my-11'>
-                        <ul className='flex space-y-5 flex-col items-center font-bold m-4'>
+                        <ul className='flex space-y-5 flex-col items-center font-bold m-7'>
                             <li><Link to="/" className='hover:text-blue-500 cursor-pointer'>Home</Link></li>
                             <li><Link to="/portfolio" className='hover:text-blue-500 cursor-pointer'>Portfolio</Link></li>
                             <li><Link to="/contact" className='hover:text-blue-500 cursor-pointer'>Contact</Link></li>
